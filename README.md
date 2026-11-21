@@ -81,7 +81,7 @@ Tienda de indumentaria, maquillaje y accesorios con **pagos por Mercado Pago** y
 - El **webhook de Mercado Pago confirma el pago y es idempotente**: un aviso repetido no duplica la orden.
 - **Stock atómico en una función SQL** para que dos compras simultáneas no vendan la misma unidad.
 - Reintentos de pago sin órdenes acumuladas y **una sola caja** para ventas online y presenciales.
-- **Tests E2E con Playwright** sobre los flujos críticos (carrito, checkout, pago).
+- **Tests E2E con Playwright** (login, permisos del panel, catálogo y carrito) en escritorio y celular.
 
 ![Next.js](https://img.shields.io/badge/Next.js_16-000?logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white) ![Mercado Pago](https://img.shields.io/badge/Mercado_Pago-00B1EA?logo=mercadopago&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
 
